@@ -8,6 +8,9 @@
     font-family: 'Courier New', Courier, monospace;
     color: chocolate;
 }
+a{
+    text-decoration:none;
+}
 .DS{
     width: 100%;
     padding: 10px;

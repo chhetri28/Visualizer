@@ -68,11 +68,12 @@ main {
     border-bottom: 5px solid white;
 }
 
-.main-nav__item--cta a{
+.main-nav__item--cta .dropbtn{
   color: white;
   background: #ff1b68;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
+  padding: 0.3rem 0.8rem;
+  border-radius: 10px;
+  font: inherit;
 }
 
 .main-nav__item--cta a:hover,
