@@ -18,6 +18,15 @@ a{
     margin-top: 43px;
     position: relative;
 }
+
+.entry-header{
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
 .entry-content{
-    padding: 10px;
+    margin: 0 0 10px;
+    line-height: normal;
+    font-size: 16px;
+    /* text-align: justify; */
 }
