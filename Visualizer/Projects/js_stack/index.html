@@ -9,7 +9,33 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
     <link rel="stylesheet" href="/Visualizer/styles/globals.css">
     <link rel="stylesheet" href="/shared.css">
+    <style>
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
 
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -21,13 +47,10 @@
             <nav class="main-nav">
                 <ul class="main-nav__items">
                     <li class="main-nav__item">
-                        <a href="About/index.html">About</a>
+                        <a href="/Visualizer/About/about.html">About</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="">Github</a>
-                    </li>
-                    <li class="main-nav__item main-nav__item--cta">
-                        <a href="Visualizer/index.html">Visualizer</a>
+                        <a href="https://github.com/chhetri28/Visualizer">Github</a>
                     </li>
                 </ul>
             </nav>
